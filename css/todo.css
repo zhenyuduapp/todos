@@ -1,0 +1,333 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'iconfont';
+  /* project id："172617" */
+  src: url("https://at.alicdn.com/t/font_jxsxzfe3dj8umcxr.eot");
+  src: url("https://at.alicdn.com/t/font_jxsxzfe3dj8umcxr.eot") format("embedded-opentype"), url("https://at.alicdn.com/t/font_jxsxzfe3dj8umcxr.woff") format("woff"), url("https://at.alicdn.com/t/font_jxsxzfe3dj8umcxr.ttf") format("truetype"), url("https://at.alicdn.com/t/font_jxsxzfe3dj8umcxr.svg#iconfont") format("svg"); }
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+img {
+  border: none; }
+
+html {
+  font-size: 100px; }
+
+body {
+  font-size: 16px;
+  height: 568px;
+  background: #E8E5E5; }
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px; } }
+
+@keyframes delete {
+  from {
+    transform: translateX(0%); }
+  to {
+    transform: translateX(120%); } }
+
+@keyframes delete {
+  from {
+    transform: translateX(0%); }
+  to {
+    transform: translateX(120%); } }
+
+li.done .content {
+  color: #CBCBCB;
+  text-decoration: line-through; }
+
+li.done .delete {
+  display: block; }
+
+li.delete-d {
+  animation: delete 1s both normal; }
+
+.yemian1 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0; }
+
+#header {
+  width: 100%;
+  height: 2rem;
+  line-height: 2rem;
+  position: relative;
+  background: #C4C4C4; }
+  #header .shezhi {
+    width: 1rem;
+    height: 1rem;
+    line-height: 1rem;
+    position: absolute;
+    left: 20px;
+    top: 0.6rem;
+    background: url(../img/shezhi.gif) no-repeat; }
+  #header .yanse {
+    float: left; }
+  #header span {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    left: 30%;
+    font-size: 24px;
+    color: #ffffff; }
+  #header .yanse {
+    width: .9rem;
+    height: .9rem;
+    line-height: 1rem;
+    position: absolute;
+    right: 1.2rem;
+    top: 0.5rem;
+    background: url(../img/yanse.gif) no-repeat; }
+    #header .yanse ul {
+      width: .9rem;
+      height: 3rem;
+      background: #fff;
+      display: none;
+      position: absolute;
+      top: -.2rem;
+      border-radius: 30px; }
+      #header .yanse ul > li {
+        margin-left: .2rem;
+        margin-top: .3rem; }
+      #header .yanse ul > li:nth-child(1) {
+        width: .5rem;
+        height: .5rem;
+        background: #C0FF3E;
+        border-radius: 50%; }
+      #header .yanse ul > li:nth-child(2) {
+        width: .5rem;
+        height: .5rem;
+        background: #D15FEE;
+        border-radius: 50%; }
+      #header .yanse ul > li:nth-child(3) {
+        width: .5rem;
+        height: .5rem;
+        background: #FFC0CB;
+        border-radius: 50%; }
+  #header .sousuo {
+    position: absolute;
+    float: right;
+    right: 10px;
+    top: -5px;
+    font-size: 33px;
+    font-family: "iconfont";
+    color: #fff; }
+
+#uls {
+  width: 85%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  margin: 10px auto;
+  background: #E8E8E8; }
+  #uls li {
+    margin-top: 10px; }
+  #uls .dones {
+    color: red; }
+  #uls .done {
+    width: 100%;
+    height: 1.3rem;
+    background: #fff;
+    position: relative;
+    border-radius: 20px; }
+    #uls .done .kuai {
+      width: .7rem;
+      height: .4rem;
+      background: blue;
+      top: 30%;
+      position: absolute;
+      left: -0.45rem;
+      border-radius: 10px; }
+    #uls .done .sj {
+      font-size: 12px;
+      width: 5rem;
+      height: .3rem;
+      position: absolute;
+      left: 20px;
+      top: 5px; }
+      #uls .done .sj div {
+        float: left; }
+    #uls .done .wjx {
+      font-family: "iconfont";
+      color: #c2c2c2;
+      float: right;
+      font-size: 13px;
+      position: absolute;
+      right: 15px;
+      top: 5px; }
+    #uls .done .zt {
+      width: 100%;
+      height: 50%;
+      font-size: 13px;
+      position: absolute;
+      top: 25%;
+      padding: 3%  6%; }
+
+#floor {
+  width: 100%;
+  height: 2rem;
+  position: absolute;
+  bottom: 0;
+  left: 0; }
+  #floor div {
+    float: left;
+    width: 50%;
+    height: 100%;
+    line-height: 2rem;
+    text-align: center; }
+    #floor div img {
+      margin-top: .5rem; }
+  #floor .heng {
+    background: #AAAAAA; }
+  #floor .jia {
+    background: #C5C5C5; }
+
+#xie {
+  width: 280px;
+  height: 528px;
+  position: relative;
+  left: 20px;
+  top: 20px; }
+  #xie .kuai {
+    width: 1rem;
+    height: 3rem;
+    position: absolute;
+    left: -0.45rem;
+    top: 1rem;
+    opacity: .6;
+    border-radius: 10px; }
+  #xie .sj {
+    font-size: 12px;
+    width: 5rem;
+    height: .3rem;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    color: #ccc; }
+    #xie .sj div {
+      float: left; }
+  #xie .wjx {
+    font-family: "iconfont";
+    color: #c2c2c2;
+    float: right;
+    font-size: 25px;
+    position: absolute;
+    right: 15px;
+    top: 5px; }
+  #xie .zt {
+    width: 100%;
+    height: 50%;
+    font-size: 13px;
+    position: absolute;
+    top: 25%;
+    padding: 3%  6%; }
+  #xie textarea {
+    width: 100%;
+    height: 80%;
+    max-width: 100%;
+    max-height: 80%;
+    box-shadow: 0 0 10px red;
+    border: 0;
+    font-size: 16px;
+    padding: 30px 10px; }
+
+@keyframes myfirst {
+  0% {
+    left: 100%; }
+  100% {
+    left: 0%; } }
+
+@keyframes myleft {
+  0% {
+    left: 0; }
+  100% {
+    left: -100%; } }
+
+@keyframes first {
+  0% {
+    left: 0%; }
+  100% {
+    left: 100%; } }
+
+@keyframes lefts {
+  0% {
+    left: -100%; }
+  100% {
+    left: 0%; } }
+
+.right1 {
+  animation: first 1s  linear 0.2s 1 forwards; }
+
+.left1 {
+  animation: lefts 1s  linear 0.2s 1 forwards;
+  z-index: 22; }
+
+.right {
+  animation: myfirst 1s  linear 0.2s 1 forwards; }
+
+.left {
+  animation: myleft 1s  linear 0.2s 1 forwards;
+  z-index: 22; }
+
+.yemian2 {
+  position: fixed;
+  left: 100%;
+  width: 100%;
+  height: 100%; }
+  .yemian2 #floor div {
+    margin-top: 20px; }
+    .yemian2 #floor div img {
+      margin-top: 8px; }
+
+.dg11 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 0;
+  top: 200px;
+  background: red;
+  animation: myfirst 3s 1 linear 0.2s;
+  z-index: 100; }
+
+.yemian1 {
+  display: block; }
+
+.add {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: red;
+  position: absolute;
+  left: 5rem;
+  bottom: 3rem; }
